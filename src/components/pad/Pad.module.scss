@@ -1,0 +1,30 @@
+.calcwrap{
+    display: flex;
+    form{
+        
+        .calculadora{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .visor{
+            border: none;
+            border-radius: 4px;
+            outline: none;
+        }
+
+       .borderbtn{
+            border: none;
+            padding: 1rem;
+            margin: 0.3rem;
+            background-color: var(--gray);
+       }
+    }
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --yellow-500: yellow;
+  --white: white;
+  --black: black;
+  --gray: rgb(128, 128, 128);
+}
+
+body {
+  background-color: var(--black);
+
+}
+
+body, input, button, textarea, select {
+  font: 400 1rem 'Roboto', sans-serif;
+}
+
+button, a{
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 87.5%;
+  }
+}
